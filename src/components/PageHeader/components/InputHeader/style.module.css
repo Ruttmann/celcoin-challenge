@@ -8,11 +8,17 @@
   padding: 10px 12px 10px 40px;
   border: none;
   background-color: #f5f5f5;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input:focus {
+  box-shadow: 0 0 5px rgba(86, 84, 104, 0.8);
 }
 
 .icon {
   color: #787686;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 12.5px;
+  left: 12.5px;
 }
