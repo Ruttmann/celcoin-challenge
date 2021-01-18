@@ -8,14 +8,12 @@ import './App.css';
 
 export default function App() {
   return (
-    <div className="App">
-      <Router>
-        <SideMenu />
-        <Switch>
-          <Route exact path="/" component={Dashboard} />
-          <Route exact path="/patients" component={Patients} />
-        </Switch>
-      </Router>
-    </div>
+    <Router>
+      <SideMenu />
+      <Switch>
+        <Route exact path="/" component={Dashboard} />
+        <Route exact path="/patients" component={Patients} />
+      </Switch>
+    </Router>
   );
 }

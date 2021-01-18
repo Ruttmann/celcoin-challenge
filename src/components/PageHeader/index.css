@@ -1,0 +1,7 @@
+header {
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 32px;
+  background-color: white;
+}
