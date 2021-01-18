@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './style.css';
+import styles from './style.module.css';
 
 export default function UserBar({ children }) {
   return (
-    <div className="userBar">{children}</div>
+    <div className={styles.userBar}>{children}</div>
   );
 }

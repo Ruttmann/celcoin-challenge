@@ -1,10 +1,13 @@
 import React from 'react';
 
-import './index.css';
+import { PageHeader } from 'components';
+
+import styles from './style.module.css';
 
 export default function PageContainer({ children }) {
   return (
-    <main>
+    <main className={styles.pageContainer}>
+      <PageHeader />
       {children}
     </main>
   );

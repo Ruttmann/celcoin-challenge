@@ -7,11 +7,11 @@ import InputHeader from './components/InputHeader';
 import UserBar from './components/UserBar';
 import UserInfo from './components/UserInfo';
 
-import './index.css';
+import styles from './style.module.css';
 
 export default function PageHeader() {
   return (
-    <header>
+    <header className={styles.pageHeader}>
       <InputHeader placeholder="Busca..." />
       <UserBar>
         <img src={gear} alt="configurações" />

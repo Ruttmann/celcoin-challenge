@@ -1,9 +1,8 @@
-main {
+.pageContainer {
   overflow: hidden;
   background-color: #eff2f9;
   border-radius: 30px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
 }
