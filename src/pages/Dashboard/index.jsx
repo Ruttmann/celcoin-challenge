@@ -25,6 +25,9 @@ export default function Dashboard() {
             pillText={card.pillText}
             value={card.value}
             caption={card.caption}
+            tooltipTitle={card.tooltipTitle}
+            tooltipValue={card.tooltipValue}
+            tooltipType={card.tooltipType}
           />
         ))}
       </PageSection>

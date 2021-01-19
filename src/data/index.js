@@ -7,6 +7,9 @@ const generalInfoCards = [
     pillText: "+30%",
     value: 26,
     caption: "Pacientes ativos",
+    tooltipTitle: "Pacientes totais",
+    tooltipValue: 123,
+    tooltipType: "info",
   },
   {
     key: 2,
@@ -16,6 +19,9 @@ const generalInfoCards = [
     pillText: "-10%",
     value: 306,
     caption: "Testes realizados",
+    tooltipTitle: "Testes totais",
+    tooltipValue: 123,
+    tooltipType: "info",
   },
   {
     key: 3,
@@ -25,6 +31,9 @@ const generalInfoCards = [
     pillText: "+30%",
     value: 139,
     caption: "Testes concluídos",
+    tooltipTitle: "Testes totais concluídos",
+    tooltipValue: 123,
+    tooltipType: "info",
   },
   {
     key: 4,
@@ -34,6 +43,9 @@ const generalInfoCards = [
     pillText: "-10%",
     value: 11,
     caption: "Testes cancelados",
+    tooltipTitle: "Testes totais cancelados",
+    tooltipValue: 123,
+    tooltipType: "warn",
   },
 ];
 

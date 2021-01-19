@@ -57,3 +57,42 @@
   border-radius: 6px;
   box-shadow: 0px 8px 26px rgba(71, 87, 122, 0.2);
 }
+
+.tooltip {
+  z-index: 2;
+  position: absolute;
+  right: 30px;
+  top: -45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.tooltip h3 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #303b5a;
+}
+
+.tooltip p {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.green {
+  color: #1cbf84;
+}
+
+.red {
+  color: #eb0d35;
+}
+
+.tooltipHide {
+  display: none;
+}
