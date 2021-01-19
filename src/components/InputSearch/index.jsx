@@ -5,7 +5,7 @@ import { Icon } from '@iconify/react';
 
 import styles from './style.module.css';
 
-export default function InputHeader(props) {
+export default function InputSearch(props) {
   return (
     <div className={styles.container}>
       <input {...props} type="text" className={styles.input} />

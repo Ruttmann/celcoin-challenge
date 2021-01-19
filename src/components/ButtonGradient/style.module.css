@@ -1,0 +1,20 @@
+.button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 13.62px;
+  letter-spacing: 1px;
+  color: white;
+  padding: 11px 15px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+.pink {
+  background: linear-gradient(93.05deg, #ff00c7 0%, #ff005c 100%);
+}
+
+.blue {
+  background: linear-gradient(93.05deg, #00a3ff 0%, #0057ff 100%);
+}

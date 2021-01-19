@@ -4,7 +4,7 @@ import ServiceItem from './components/ServiceItem';
 
 import styles from './style.module.css';
 
-export default function ServiceHistoryCard({ serviceItems }) {
+export default function HistoryUpdateCard({ serviceItems }) {
   return (
     <div className={styles.serviceHistory}>
       {serviceItems.map((service) => (

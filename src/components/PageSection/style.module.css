@@ -1,5 +1,9 @@
 .sectionContainer {
-  margin-bottom: 35px;
+  margin-bottom: 30px;
+}
+
+.sectionContainer:last-child {
+  margin-bottom: 0;
 }
 
 .sectionContent {

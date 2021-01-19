@@ -1,7 +1,7 @@
 .serviceItem {
   border: 1px solid #edf1f8;
   border-radius: 6px;
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 .serviceItem:last-child {
@@ -24,8 +24,8 @@
   justify-content: space-between;
   font-family: "Open Sans", sans-serif;
   color: #303b5b;
-  font-size: 16px;
-  padding: 16px;
+  font-size: 1rem;
+  padding: 1rem;
   width: 264px;
   height: 152px;
 }

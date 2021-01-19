@@ -1,0 +1,16 @@
+.patientsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.headerTitle {
+  margin-right: 0.5rem;
+  color: rgba(86, 84, 104, 0.6);
+}

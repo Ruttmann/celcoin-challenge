@@ -1,0 +1,52 @@
+.importantUpdatesContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.importantUpdatesCard {
+  display: flex;
+  width: 31rem;
+  height: 8rem;
+  background: white;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.importantUpdatesCard:last-child {
+  margin-right: 0;
+}
+
+.content {
+  font-family: "Open Sans", sans-serif;
+  margin-left: 1rem;
+}
+
+.patientName {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #303b5b;
+  margin-bottom: 0.5rem;
+}
+.subtitle {
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 800;
+  color: rgba(48, 59, 91, 0.3);
+}
+
+.testInfo {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1rem;
+  margin-bottom: 1rem;
+}
+
+.completed {
+  color: #1eac79;
+}
+
+.cancelled {
+  color: #ef0c35;
+}

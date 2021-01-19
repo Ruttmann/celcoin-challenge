@@ -8,7 +8,9 @@ export default function PageContainer({ children }) {
   return (
     <main className={styles.pageContainer}>
       <PageHeader />
-      {children}
+      <div className="pageContainer">
+        {children}
+      </div>
     </main>
   );
 }

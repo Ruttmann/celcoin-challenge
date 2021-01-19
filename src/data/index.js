@@ -68,4 +68,49 @@ const serviceItems = [
   },
 ];
 
-export { serviceItems, generalInfoCards };
+const patientsUpdates = [
+  {
+    key: 1,
+    iconImg: "brain",
+    patientName: "Renata Augusto Ferreira",
+    testDescription: "TDAH CAB ADHD",
+    date: "20/10/2023",
+  },
+  {
+    key: 2,
+    iconImg: "hive",
+    patientName: "Renata Augusto Ferreira",
+    testDescription: "Autismo",
+    date: "20/09/2023",
+  },
+  {
+    key: 3,
+    iconImg: "brain",
+    patientName: "Renata Augusto Ferreira",
+    testDescription: "TDAH CAB ADHD",
+    date: "20/10/2023",
+  },
+  {
+    key: 4,
+    iconImg: "hive",
+    patientName: "Renata Augusto Ferreira",
+    testDescription: "Autismo",
+    date: "20/09/2023",
+  },
+  {
+    key: 5,
+    iconImg: "brain",
+    patientName: "Renata Augusto Ferreira",
+    testDescription: "TDAH CAB ADHD",
+    date: "20/10/2023",
+  },
+  {
+    key: 6,
+    iconImg: "hive",
+    patientName: "Renata Augusto Ferreira",
+    testDescription: "Autismo",
+    date: "20/09/2023",
+  },
+];
+
+export { serviceItems, generalInfoCards, patientsUpdates };

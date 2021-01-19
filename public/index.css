@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  padding: 40px 32px;
+  padding: 40px 2rem;
   font-family: "Poppins", sans-serif;
   width: 100vw;
   height: 100vh;
@@ -16,4 +16,11 @@ body {
 }
 a {
   text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+
+.pageContainer {
+  padding: 1rem 2rem 1rem 2rem;
 }

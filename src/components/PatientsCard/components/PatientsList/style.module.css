@@ -1,0 +1,13 @@
+.patientsList {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.patientsList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.patientsList::-webkit-scrollbar-thumb {
+  background: #c6c6c6;
+  border-radius: 10px;
+}

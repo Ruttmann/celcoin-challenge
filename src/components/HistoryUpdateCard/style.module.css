@@ -1,7 +1,7 @@
 .serviceHistory {
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 1rem;
   background: white;
   border-radius: 6px;
   overflow: hidden;
