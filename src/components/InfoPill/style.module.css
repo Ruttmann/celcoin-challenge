@@ -1,0 +1,20 @@
+.infoPill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 24px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  color: white;
+  border-radius: 20px;
+}
+
+.green {
+  background: #1cbf84;
+}
+
+.red {
+  background: #ef0c35;
+}

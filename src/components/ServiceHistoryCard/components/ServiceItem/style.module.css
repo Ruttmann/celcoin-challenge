@@ -1,0 +1,44 @@
+.serviceItem {
+  border: 1px solid #edf1f8;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+
+.serviceItem:last-child {
+  margin-right: 0;
+}
+
+.serviceImg {
+  display: flex;
+  justify-content: center;
+  background-image: url("/assets/service-item-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 264px;
+  height: 136px;
+}
+
+.serviceData {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Open Sans", sans-serif;
+  color: #303b5b;
+  font-size: 16px;
+  padding: 16px;
+  width: 264px;
+  height: 152px;
+}
+
+.subtitle {
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: 800;
+  color: rgba(48, 59, 91, 0.3);
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+}

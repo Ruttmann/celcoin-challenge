@@ -2,3 +2,5 @@ node_modules
 build
 dist
 snowpack.config.js
+
+**/*.js

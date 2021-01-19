@@ -12,6 +12,7 @@ module.exports = {
   alias: {
     components: "./src/components",
     assets: "./src/assets",
+    data: "./src/data",
   },
   optimize: {
     /* Example: Bundle your final build: */
